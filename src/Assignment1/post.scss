@@ -1,0 +1,40 @@
+*{
+  outline: none;
+}
+
+
+
+
+.App-header {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header > form > input{
+  width: 100%;
+  /* height: 30px; */
+  border-radius: 20px;
+  padding: 15px;
+  border: none;
+}
+
+button{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: #000;
+
+}
+.disablebtn{
+  background-color: rgb(105, 105, 105);
+
+}
+.enablebtn{
+  background-color: rgb(209, 216, 209);
+}
