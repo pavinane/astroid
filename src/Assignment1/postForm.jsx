@@ -5,7 +5,6 @@ import "./post.scss";
 
 const PostForm = () => {
   const [post, setPost] = useState([]);
-  const [random, setRandom] = useState();
 
   const { register, handleSubmit, watch } = useForm();
 
